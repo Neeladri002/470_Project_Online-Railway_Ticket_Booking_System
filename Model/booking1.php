@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" style = "font-size: 25px; color:#FFFFFF">
 			<title> <style = "font-size: 25px; color:#FFFFFF"> Purchase Result </title>
-		<?php include 'UI.php';?>
+		<?php include '../View/UI.php';?>
 		</head>
 
   <body> 
@@ -14,7 +14,7 @@
 			<div class="col-md-10" style="text-align: center; font-size: 100px; color:#2FFFFF"> BRACU RAILS </div>
 			<div class="col-md-10" style="text-align: center"> 
 				
-				<a href="search_train.php" style = "font-size: 25px; color:#FFFFFF" >Train Search </a> 
+				<a href="../Controller/search_train.php" style = "font-size: 25px; color:#FFFFFF" >Train Search </a> 
 				 
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 	<section id = "section1">
 	<div class="col-md-10" style="text-align: center">
 		<div class="col-md-10" style="text-align: center; font-size: 60px; color:#2d2244"> Purchase Result </div>
-		<a href="bookingindex.php" style="text-align: center; font-size: 20px; color:#2d2244"> Book Again  </a>
+		<a href="../Controller/bookingindex.php" style="text-align: center; font-size: 20px; color:#2d2244"> Book Again  </a>
 		<div style="margin-left:10%; margin-right:10%; margin-top:50px; margin-bottom:50px;opacity: 0.7;text-align:center;background:#fcc298;">
 			<div class="row" style="padding:5px;"> 
 			</div>	
@@ -69,6 +69,6 @@ if(isset($_POST['sid']) && isset($_POST['omg']) && isset($_POST['cls']) && isset
 	</section>
 	
 	<!----- Footer ----->
-<?php include 'Footer.php';?>
+<?php include '../View/Footer.php';?>
   </body> 
 </html>

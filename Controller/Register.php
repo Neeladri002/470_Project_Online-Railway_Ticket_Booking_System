@@ -19,7 +19,7 @@
 		<div class="col-md-10" style="text-align: center; font-size: 100px; color:#2d2244"> Bracu Rails </div>
                 <div class="col-md-10" style="text-align: center; font-size: 26px;"> SIGN UP </div>
 		
-		<form action="insert.php" class="form_design" method="post" style="color:White">
+		<form action="../Model/insert.php" class="form_design" method="post" style="color:White">
 
 Name <input type="text" placeholder="Enter Name" name="fullname"> <br/>
 Username <input type="text" placeholder="Enter Username" name="uname"> <br/>
@@ -37,6 +37,6 @@ Password <input type="password" placeholder="Enter Password" name="pass"> <br/>
                         
 		</form>
 	</section>
-<?php include 'Footer.php';?>
+<?php include '../View/Footer.php';?>
   </body> 
 </html>

@@ -21,11 +21,11 @@ if(isset($_POST['fid']) && isset($_POST['fdate']) && isset($_POST['fpl']) && iss
 	//check if this add is happening in the database
 	if(mysqli_affected_rows($conn)){
 		echo "Added Successfully, Please Check Travel Details";
-		header("Location: add_trains.php");
+		header("Location: ../Controller/add_trains.php");
 	}
 	else{
 		echo "Added Failed";
-		header("Location: add_trains.php");
+		header("Location: ../Controller/add_trains.php");
 	}
 	
 }

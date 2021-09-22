@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title> Delete Trains </title>
-<?php include 'UI.php';?>
+<?php include '../View/UI.php';?>
 		</head>
   
 	<body>
@@ -32,7 +32,7 @@
 
 	
 	<!----- Footer ----->
-<?php include 'Footer.php';?>
+<?php include '../View/Footer.php';?>
   </body> 
 </html>
 

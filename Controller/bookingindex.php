@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title> Booking </title>
-<?php include 'UI.php';?>
+<?php include '../View/UI.php';?>
 		</head>
   <body> 
 
@@ -25,7 +25,7 @@
 		
 
 	<section id = "section1">	
-		<form action="booking1.php" class="form_design" method="post">
+		<form action="../Model/booking1.php" class="form_design" method="post">
 		<div class="col-md-8" style="text-align: center; font-size: 25px; color:#fbf7f7">
 			Passenger Name: <input type="text" name="sid"> <br/>
 			Train no.:<input type="text" name="omg"> <br/>
@@ -42,7 +42,7 @@
 
 	
 	<!----- Footer ----->
-<?php include 'Footer.php';?>
+<?php include '../View/Footer.php';?>
 </body>
 </html>
 

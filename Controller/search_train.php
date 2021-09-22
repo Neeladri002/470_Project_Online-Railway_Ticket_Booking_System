@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title> Search Train </title>
-		<?php include 'UI.php';?>
+		<?php include '../View/UI.php';?>
 		</head>
 	<body>	
 	<section id="header">
@@ -21,7 +21,7 @@
 	<div class="col-md-10" style="text-align: center">
 		<div class="col-md-10" style="text-align: center; font-size: 60px; color:#FFFFFF"> Search Train </div>
 		
-		<form action="search_result.php" class="form_design" method="post"> 
+		<form action="../View/search_result.php" class="form_design" method="post"> 
 		<div class="col-md-10" style="text-align: center; font-size: 25px; color:#fbf7f7">
 			Destination: <input type="text" name="fdestination"> <br/>
             Departure Location:<input type="text" name="fdeparture"> <br/> <br/>
@@ -33,6 +33,6 @@
 
 	</section>
 
-	<?php include 'Footer.php';?>
+	<?php include '../View/Footer.php';?>
 </body>
 </html>

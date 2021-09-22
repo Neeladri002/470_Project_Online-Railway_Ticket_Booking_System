@@ -15,13 +15,13 @@ if(isset($_POST['fname']) && isset($_POST['pass'])){
 	
     if(mysqli_num_rows($result2) !=0 ){
 	
-		header("Location: search_train1.php");
+		header("Location: ../Controller/search_train1.php");
 		
 	}
 
     elseif(mysqli_num_rows($result) !=0 ){
 	
-		header("Location: search_train.php");
+		header("Location: ../Controller/search_train.php");
 		
 	}
 

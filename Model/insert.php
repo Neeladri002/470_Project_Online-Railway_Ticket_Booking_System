@@ -30,7 +30,7 @@ if(isset($_POST['fullname']) && isset($_POST['uname']) && isset($_POST['gen']) &
 	}
 	else{
 		//echo "Insertion Failed";
-		header("Location: Register.php");
+		header("Location: ../Controller/Register.php");
 	}
 	
 }

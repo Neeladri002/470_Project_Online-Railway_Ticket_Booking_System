@@ -14,7 +14,7 @@
 			<div class="col-md-10" style="text-align: center; font-size: 100px; color:#2d2244"> Bracu Rails </div>
 			<div class="col-md-10" style="text-align: center;font-size: 25px; color:#2d2244"> 
 				
-				<a href="search_train.php" > Go Back </a> <br><br><br><br>
+				<a href="../Controller/search_train.php" > Go Back </a> <br><br><br><br>
 				 
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 	<section id = "section1">
 	<div class="col-md-10" style="text-align: center">
 		<div class="col-md-10" style="text-align: center; font-size: 60px; color:#2FFFFF"> Search Result </div>
-		<a href="bookingindex.php" style="text-align: center; font-size: 25px; color:#FFFFFF"> Book Now  </a>
+		<a href="../Controller/bookingindex.php" style="text-align: center; font-size: 25px; color:#FFFFFF"> Book Now  </a>
 		<div style="margin-left:10%; margin-right:10%; margin-top:50px; margin-bottom:50px;opacity: 0.7;text-align:center;background:#fcc298;">
 			<div class="row" style="padding:5px;"> 
 			</div>	
@@ -66,7 +66,7 @@ if(isset($_POST['fdestination']) && isset($_POST['fdeparture']) && isset($_POST[
 	
 	else{
 		echo "ID and Date is wrong";
-		header("Location: search_train.php");
+		header("Location: ../Controller/search_train.php");
 	}
 	
 }

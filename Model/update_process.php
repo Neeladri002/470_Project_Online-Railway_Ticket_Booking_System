@@ -24,7 +24,7 @@ if(isset($_POST['fid']) && isset($_POST['fdate']) && isset($_POST['fpl']) && iss
 	}
 	else{
 		//echo "Updated Failed";
-		header("Location: update_seats.php");
+		header("Location: ../Controller/update_seats.php");
 	}
 	
 }

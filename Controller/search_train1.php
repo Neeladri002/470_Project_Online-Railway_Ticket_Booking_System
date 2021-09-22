@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title> Search Train </title>
-		<?php include 'UI.php';?>
+		<?php include '../View/UI.php';?>
 		</head>
   <body>
  <!-- following section is used for creating the menubar in the webpage -->
@@ -27,7 +27,7 @@
 	<div class="col-md-10" style="text-align: center">
 		<div class="col-md-10" style="text-align: center; font-size: 60px; color:#2FFFFF"> Search Train </div>
 		
-		<form action="show_details.php" class="form_design" method="post"> 
+		<form action="../View/show_details.php" class="form_design" method="post"> 
 		<div class="col-md-10" style="text-align: center; font-size: 25px; color:#fbf7f7">
 			Destination: <input type="text" name="des"> <br/>
             Departure:<input type="text" name="del"> <br/> <br/>
@@ -39,6 +39,6 @@
 
 	</section>
 
-	<?php include 'Footer.php';?>
+	<?php include '../View/Footer.php';?>
 </body>
 </html>

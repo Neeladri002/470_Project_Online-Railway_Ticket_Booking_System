@@ -14,10 +14,10 @@
 			<div class="col-md-10" style="text-align: center; font-size: 100px; color:#2d2244"> BRACU RAILS </div>
 			<div class="col-md-10" style="text-align: center;font-size: 25px; color:#2d2244"> 
 				
-				<a href="add_trains.php"> Add Train </a> 
-				<a href="delete_process.php" style="margin-left: 20px;"> Delete Train </a> 
-				<a href="update_seats.php" style="margin-left: 20px;"> Update Details </a> 
-				<a href="search_train1.php" style="margin-left: 20px;"> Search Train </a> <br><br><br>
+				<a href="../Controller/add_trains.php"> Add Train </a> 
+				<a href="../Model/delete_process.php" style="margin-left: 20px;"> Delete Train </a> 
+				<a href="../Controller/update_seats.php" style="margin-left: 20px;"> Update Details </a> 
+				<a href="../Controller/search_train1.php" style="margin-left: 20px;"> Search Train </a> <br><br><br>
 				 
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 	<section id = "section1">
 	<div class="col-md-10" style="text-align: center">
 		<div class="col-md-10" style="text-align: center; font-size: 60px; color:#2d2244"> Search Result </div>
-		<a href="bookingindex.php" style="text-align: center; font-size: 25px; color:#2d2244"> Book Now  </a>
+		<a href="../Controller/bookingindex.php" style="text-align: center; font-size: 25px; color:#2d2244"> Book Now  </a>
 		<div style="margin-left:10%; margin-right:10%; margin-top:50px; margin-bottom:50px;opacity: 0.7;text-align:center;background:#fcc298;">
 			<div class="row" style="padding:5px;"> 
 			</div>	
@@ -69,7 +69,7 @@ if(isset($_POST['des']) && isset($_POST['del']) && isset($_POST['fdate'])){
 	
 	else{
 		echo "ID and Date is wrong";
-		header("Location: search_train1.php");
+		header("Location: ../Controller/search_train1.php");
 	}
 	
 }

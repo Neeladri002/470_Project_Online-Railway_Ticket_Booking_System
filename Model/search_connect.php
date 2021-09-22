@@ -31,7 +31,7 @@ if(isset($_POST['fdestination']) && isset($_POST['fdeparture']) && isset($_POST[
 	
 	else{
 		echo "ID and Date is wrong";
-		header("Location: search_train.php");
+		header("Location: ../Controller/search_train.php");
 	}
 	
 }

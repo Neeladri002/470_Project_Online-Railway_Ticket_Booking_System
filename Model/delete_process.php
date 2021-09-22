@@ -15,11 +15,11 @@ if(isset($_POST['fid'])){
 	//Check to see if it is success or not
 	if($conn->query($sql)=== True){
 		echo "Deleted Successfully, Please Check Your Travel Details";
-		header("Location: cancel_train.php");
+		header("Location: ../Controller/cancel_train.php");
 	}
 	else{
 		echo "Deletion Failed";
-		header("Location: cancel_train.php");
+		header("Location: ../Controller/cancel_train.php");
 	}
 }
 

@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1; color: Red">
 			<title> Details </title>
-<?php include 'UI.php';?>
+<?php include '../View/UI.php';?>
 		</head>
 
   <body> 
@@ -26,7 +26,7 @@
 			
 			<div class="col-md-10" style="text-align: center; font-size: 25px; color:#fbf7f7">
 		
-		<form action="add_process.php" class="form_design" method="post">
+		<form action="../Model/add_process.php" class="form_design" method="post">
 			Train No.: <input type="text" name="fid"> <br/>
 			Date: <input type="date" name="fdate"> <br/> 
 			Passenger Limit: <input type="text" name="fpl"> <br/>
@@ -46,7 +46,7 @@
 
 	
 	<!----- Footer ----->
-<?php include 'Footer.php';?>
+<?php include '../View/Footer.php';?>
   </body> 
 </html>
 
